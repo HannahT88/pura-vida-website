@@ -1,0 +1,110 @@
+
+body {
+width: 100%;
+height: 100%;
+background-color: #BEE5FA;
+}
+
+#custom-nav{
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+}
+
+#custom-nav-heading{
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 50px;
+}
+
+.main-container {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  text-align: center;
+  padding-top: 30px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.main-title {
+  font-family: fantasy;
+  font-size: 50px;
+  color: #500C8F;
+
+}
+.main-subheading{
+  font-family: fantasy;
+  font-size: 20px;
+
+  color: #5406bF;
+}
+
+
+.about-title {
+  font-family: fantasy;
+  font-size: 20px;
+  color: #500C8F;
+  justify-content: center;
+  display: flex;
+  padding-top :10px;
+}
+
+
+.carousel-container{
+  display: flex;
+  justify-content: center;
+  flex: 1;
+  flex-direction: column;
+  align-items: center;
+  background-color: #98ECF7;
+  width:100%
+}
+
+.carousel-image {
+  width: 100%;
+  height: 100%;
+}
+#column-styles {
+  display: flex;
+  justify-content: center;
+}
+
+#menu-custom-text{
+  color: #5406BF;
+  font-family: fantasy;
+  font-size: 30px;
+}
+
+#image-column-styles{
+  display: flex;
+  justify-content: center;
+
+}
+
+#custom-row {
+  justify-content: center;
+}
+
+.image-link{
+  height: 300px;
+  width: 200px;
+  padding-top: 10px;
+  padding-bottom: 20px;
+}
+
+.col{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-us-container{
+  display: flex;
+  justify-content: center;
+}
+
+.list-container{
+  display: flex;
+  justify-content: center;
+  text-align: left;
+}
