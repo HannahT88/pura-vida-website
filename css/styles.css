@@ -54,6 +54,13 @@ background-color: #BEE5FA;
   height: 100%;
 }
 
+.insta-logo{
+  width:50px;
+  height: 50px;
+  padding: 5px;
+  float: right;
+}
+
 #custom-row {
   justify-content: center;
 }
